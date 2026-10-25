@@ -1,0 +1,139 @@
+# Čeština pro Touch Audio. Název aplikace se nepřekládá.
+app_title: Touch Audio
+categories: Kategorie
+no_categories: Nebyly nalezeny žádné kategorie. Přidejte zvukové složky v Nastavení.
+no_entries: V této kategorii nejsou žádné zvukové položky.
+select_category: Vybrat kategorii
+entries: položek
+tracks: stop
+browse: Procházet vše
+search_placeholder: Hledat knihy a alba podle názvu nebo metadat…
+search_touch: Hledat názvy a metadata…
+search_too_many: 'Nalezeno {count} shod. Zadejte více znaků.'
+no_search_results: Žádné odpovídající položky.
+folder: Složka
+album: Album / metadata
+artist: Autor / interpret
+files: Zvukové soubory
+no_file: Vyberte knihu nebo album pro zobrazení souborů.
+no_tag: Bez názvu v metadatech
+refresh: Obnovit
+refreshing: Prohledávám složky a metadata…
+refreshed: 'Knihovna připravena: {entries} položek v {categories} kategoriích'
+options: Nastavení
+fullscreen: Celá obrazovka
+windowed: Okno
+previous_entry: Předchozí kniha / album
+next_entry: Další kniha / album
+previous: Předchozí
+play_pause: Přehrát / pozastavit
+next: Další
+stop: Zastavit
+volume: Hlasitost
+sleep: Časovač vypnutí
+sleep_minutes: Minuty do začátku ztlumování
+sleep_active: 'Vypnutí za {time}'
+sleep_fading: 'Zeslabuji zvuk. Vypnutí za {time}'
+sleep_off: Časovač vypnut
+sleep_cancel: Zrušit časovač
+sleep_set: Spustit časovač
+options_title: Nastavení
+sources_tab: Zdroje
+display_tab: Displej
+server_tab: Ovládání přes LAN
+group_folders: Skupinové složky (jedna cesta na řádek)
+direct_folders: Přímé kategorie (kategorie → složka)
+add_row: Přidat
+remove_row: Odebrat vybrané
+language: Jazyk
+start_fullscreen: Spustit na celé obrazovce
+ui_scale: Velikost ovládacích prvků (%)
+text_scale: Velikost textu (%)
+scale_hint: Změny se použijí po uložení. Obě měřítka jsou nezávislá.
+web_enabled: Povolit webové ovládání v LAN
+web_host: Adresa pro naslouchání
+web_port: Port TCP
+web_token: Přístupový token
+show_token: Zobrazit token
+save: Uložit
+cancel: Zrušit
+settings_saved: Nastavení uloženo a použito.
+settings_error: Nastavení nelze uložit
+scan_warnings: Upozornění při prohledávání
+browse_title: Vyberte knihu nebo album
+open_entry: Otevřít
+all_entries: Všechny položky
+remote_status: 'Webové ovládání: {host}:{port}'
+remote_disabled: Webové ovládání vypnuto
+exit_fullscreen: Stiskněte F11 nebo Escape pro ukončení režimu celé obrazovky
+system_error: Vypnutí se nezdařilo
+shutdown_failed: 'Zařízení nelze vypnout: {error}'
+minutes: min
+
+# Knihovna, vyhledávání a přehrávání
+category_folders: Další složky kategorií (lze zadat více cest pro stejnou kategorii)
+categoryless: Režim bez kategorií – procházet všechny položky
+scan_on_startup: Při spuštění obnovit knihovnu
+browse_text_scale: Velikost textu v seznamu složek a kategorií (%)
+metadata_tab: Metadata
+metadata_folder_name: Zobrazovat název složky pod obalem
+metadata_folder_album: Zobrazovat název alba pod obalem
+metadata_folder_artist: Zobrazovat autora / interpreta pod obalem
+metadata_file_name: Zobrazovat název souboru v seznamu stop
+metadata_file_title: Zobrazovat název stopy v seznamu
+metadata_file_artist: Zobrazovat autora / interpreta v seznamu stop
+search: Hledat
+search_all: Všechna alba
+search_category: Aktuální kategorie
+search_files: Pouze soubory
+repeat_file: Opakovat aktuální soubor
+repeat_album: Opakovat album / knihu
+scan_skipped: Úvodní prohledávání přeskočeno; zobrazen poslední index. Stiskněte Obnovit.
+discovering: Hledám zvukové složky…
+scan_progress: 'Prohledávám {done}/{total}: {folder}'
+working: Načítám seznam…
+
+# Displej, systém a napájení
+system_controls: Ovládání systému
+close_app: Ukončit aplikaci
+shutdown_pc: Vypnout počítač
+shutdown_confirm: Opravdu nyní vypnout celý počítač? Přehrávání i ostatní programy se ukončí.
+screen_brightness: Jas obrazovky
+brightness_mode: 'Ovládání jasu: {backend}'
+brightness_hardware: Hardwarové podsvícení
+brightness_software: Softwarové ztmavení (pouze aplikace)
+brightness_auto: Automatické rozpoznání
+brightness_backend: Způsob ovládání jasu
+backlight_device: Zařízení podsvícení (volitelné)
+backlight_device_hint: Automaticky; nebo název z /sys/class/backlight
+dim_toggle: Ztlumit / obnovit jas obrazovky
+auto_dim: Automaticky ztmavit obrazovku při nečinnosti
+auto_dim_delay: Ztmavit po době nečinnosti
+auto_dim_target: Cílový jas při automatickém ztmavení
+sleep_active_short: 'Vypnutí za {time}'
+sleep_fading_short: 'Vypnutí za {time} (zeslabování)'
+increase: Zvýšit hodnotu
+decrease: Snížit hodnotu
+repeat_enabled: Zapnuto
+repeat_disabled: Vypnuto
+
+# Kalendář: pořadí pondělí až neděle, leden až prosinec
+weekday_monday: pondělí
+weekday_tuesday: úterý
+weekday_wednesday: středa
+weekday_thursday: čtvrtek
+weekday_friday: pátek
+weekday_saturday: sobota
+weekday_sunday: neděle
+month_january: leden
+month_february: únor
+month_march: březen
+month_april: duben
+month_may: květen
+month_june: červen
+month_july: červenec
+month_august: srpen
+month_september: září
+month_october: říjen
+month_november: listopad
+month_december: prosinec

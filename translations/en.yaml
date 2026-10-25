@@ -1,0 +1,140 @@
+app_title: Touch Audio
+categories: Categories
+no_categories: No categories found. Add audio folders in Options.
+no_entries: No audio entries in this category.
+select_category: Select category
+entries: entries
+tracks: tracks
+browse: Browse all
+search_placeholder: Search books / albums by name or tags…
+search_touch: Search titles / tags…
+search_too_many: '{count} matches. Keep typing to narrow the list.'
+no_search_results: No matching entries.
+folder: Folder
+album: Album / metadata
+artist: Artist
+files: Audio files
+no_file: Select a book or album to see its files.
+no_tag: No metadata title
+refresh: Refresh
+refreshing: Scanning folders and tags…
+refreshed: 'Library ready: {entries} entries across {categories} categories'
+options: Options
+fullscreen: Full screen
+windowed: Windowed
+previous_entry: Previous book / album
+next_entry: Next book / album
+previous: Previous
+play_pause: Play / pause
+next: Next
+stop: Stop
+volume: Volume
+sleep: Sleep timer
+sleep_minutes: Minutes until fade begins
+sleep_active: Shutdown in {time}
+sleep_fading: Fading volume. Shutdown in {time}
+sleep_off: Sleep timer off
+sleep_cancel: Cancel timer
+sleep_set: Start timer
+options_title: Settings
+sources_tab: Sources
+display_tab: Display
+server_tab: LAN controller
+group_folders: Group folders (one path per line)
+direct_folders: Direct categories (category → folder)
+add_row: Add
+remove_row: Remove selected
+language: Language
+start_fullscreen: Start in full-screen mode
+ui_scale: UI / button size (%)
+text_scale: Text size (%)
+scale_hint: Changes take effect when you save. Both scales are independent.
+web_enabled: Enable LAN web controller
+web_host: Listen address
+web_port: TCP port
+web_token: Access token
+show_token: Show token
+save: Save
+cancel: Cancel
+settings_saved: Settings saved. Changes applied.
+settings_error: Cannot save settings
+scan_warnings: Scan warnings
+browse_title: Choose a book or album
+open_entry: Open
+all_entries: All entries
+remote_status: 'Web controller: {host}:{port}'
+remote_disabled: Web controller disabled
+exit_fullscreen: Press F11 or Escape to leave full screen
+system_error: Shutdown failed
+shutdown_failed: 'Could not power off this device: {error}'
+minutes: min
+
+# v1.2 controls
+category_folders: Additional category folders (repeat a category for multiple paths)
+categoryless: Categoryless mode — browse and arrows use all entries
+scan_on_startup: Refresh library on startup
+browse_text_scale: Folder / category list text size multiplier (%)
+metadata_tab: Metadata
+metadata_folder_name: Show folder name under cover
+metadata_folder_album: Show album title under cover
+metadata_folder_artist: Show author / artist under cover
+metadata_file_name: Show filename in track list
+metadata_file_title: Show track title in track list
+metadata_file_artist: Show author / artist in track list
+search: Search
+search_all: All albums
+search_category: Current category
+search_files: Files only
+repeat_file: Repeat current file
+repeat_album: Repeat album / book
+scan_skipped: Startup scan skipped; showing previous index. Press Refresh to rescan.
+discovering: Looking for audio folders…
+scan_progress: 'Scanning {done}/{total}: {folder}'
+working: Loading list…
+
+# v1.3 display / power controls
+system_controls: System controls
+close_app: Close application
+shutdown_pc: Shut down computer
+shutdown_confirm: Shut down the entire computer now? This will stop playback and close other programs.
+screen_brightness: Screen brightness
+brightness_mode: 'Brightness control: {backend}'
+brightness_hardware: Hardware backlight
+brightness_software: Software dimming (app only)
+brightness_auto: Automatic detection
+brightness_backend: Brightness method
+backlight_device: Backlight device (optional)
+backlight_device_hint: Auto; or name from /sys/class/backlight
+dim_toggle: Dim / restore display
+auto_dim: Automatically dim display when inactive
+auto_dim_delay: Dim after inactivity
+auto_dim_target: Auto-dim brightness target
+sleep_active_short: 'Shutdown in {time}'
+sleep_fading_short: 'Poweroff in {time} (fading)'
+
+# v1.4 touchscreen steppers
+increase: Increase value
+decrease: Decrease value
+
+# v1.4.2 repeat indicator states and calendar names
+repeat_enabled: Enabled
+repeat_disabled: Disabled
+weekday_monday: Monday
+weekday_tuesday: Tuesday
+weekday_wednesday: Wednesday
+weekday_thursday: Thursday
+weekday_friday: Friday
+weekday_saturday: Saturday
+weekday_sunday: Sunday
+month_january: January
+month_february: February
+month_march: March
+month_april: April
+month_may: May
+month_june: June
+month_july: July
+month_august: August
+month_september: September
+month_october: October
+month_november: November
+month_december: December

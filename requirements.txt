@@ -1,0 +1,7 @@
+# For a venv with --system-site-packages on Raspberry Pi OS.
+# System apt packages recommended; see README.md / install.sh.
+PyYAML>=6,<7
+mutagen>=1.45,<2
+Flask>=2.2,<4
+python-vlc>=3.0,<4
+ruamel.yaml>=0.18,<0.20

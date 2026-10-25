@@ -1,0 +1,45 @@
+# Copy to config.yaml; the app will generate a secure LAN access token on startup.
+language: en
+group_folders:
+  - ~/audio
+  - ~/shared-audio
+direct_folders:
+  audiobooks: ~/books
+  music: /mnt/music
+  educational: ~/lessons
+# Additional paths attached explicitly to a category (one or many paths).
+# Unlike direct_folders, this supports multiple paths for the same category.
+category_folders:
+  audiobooks:
+    - /media/usb1/Books
+    - ~/extra-books
+  music: ~/external-albums
+categoryless: false      # True: album arrows and Browse All ignore categories.
+scan_on_startup: true
+# Raspberry Pi DSI backlight: hardware control via /sys/class/backlight if writable.
+# Other displays use an input-transparent visual dimmer within this app.
+display:
+  auto_dim: true
+  idle_seconds: 60
+  dim_percent: 40
+  backend: auto   # auto, hardware (falls back to software), or software
+  device: ''      # optional name in /sys/class/backlight, else auto-detect     # False: use saved library index; Refresh updates it.
+fullscreen: true
+ui_scale: 1.5    # Button, icon and spacing size (0.75 to 2.0)
+text_scale: 1.5  # Font size, independently (0.75 to 2.0)
+browse_text_scale: 1.25  # Additional multiplier for Browse/Search/category lists (0.75 to 2.0)
+metadata:
+  folder_name: true
+  folder_album: true
+  folder_artist: true
+  file_name: true
+  file_title: true
+  file_artist: false
+volume: 70
+cache_db: ~/.cache/touch_audio_player/library.sqlite3
+state_file: ~/.local/state/touch_audio_player/state.yaml
+web:
+  enabled: true
+  host: 0.0.0.0
+  port: 8765
+  token: ''  # Auto-generated and saved if left blank.

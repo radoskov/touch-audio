@@ -1,0 +1,139 @@
+# Slovenčina pre Touch Audio. Názov aplikácie sa neprekladá.
+app_title: Touch Audio
+categories: Kategórie
+no_categories: Nenašli sa žiadne kategórie. Pridajte zvukové priečinky v Nastaveniach.
+no_entries: V tejto kategórii nie sú žiadne zvukové položky.
+select_category: Vybrať kategóriu
+entries: položiek
+tracks: stôp
+browse: Prehľadávať všetko
+search_placeholder: Hľadať knihy a albumy podľa názvu alebo metadát…
+search_touch: Hľadať názvy a metadáta…
+search_too_many: 'Nájdených {count} zhôd. Zadajte viac znakov.'
+no_search_results: Žiadne vyhovujúce položky.
+folder: Priečinok
+album: Album / metadáta
+artist: Autor / interpret
+files: Zvukové súbory
+no_file: Vyberte knihu alebo album na zobrazenie súborov.
+no_tag: Bez názvu v metadátach
+refresh: Obnoviť
+refreshing: Prehľadávam priečinky a metadáta…
+refreshed: 'Knižnica pripravená: {entries} položiek v {categories} kategóriách'
+options: Nastavenia
+fullscreen: Celá obrazovka
+windowed: Okno
+previous_entry: Predchádzajúca kniha / album
+next_entry: Ďalšia kniha / album
+previous: Predchádzajúca
+play_pause: Prehrať / pozastaviť
+next: Ďalšia
+stop: Zastaviť
+volume: Hlasitosť
+sleep: Časovač vypnutia
+sleep_minutes: Minúty do začiatku stlmovania
+sleep_active: 'Vypnutie o {time}'
+sleep_fading: 'Znižujem hlasitosť. Vypnutie o {time}'
+sleep_off: Časovač vypnutý
+sleep_cancel: Zrušiť časovač
+sleep_set: Spustiť časovač
+options_title: Nastavenia
+sources_tab: Zdroje
+display_tab: Displej
+server_tab: Ovládanie cez LAN
+group_folders: Skupinové priečinky (jedna cesta na riadok)
+direct_folders: Priame kategórie (kategória → priečinok)
+add_row: Pridať
+remove_row: Odstrániť vybrané
+language: Jazyk
+start_fullscreen: Spustiť na celej obrazovke
+ui_scale: Veľkosť ovládacích prvkov (%)
+text_scale: Veľkosť textu (%)
+scale_hint: Zmeny sa použijú po uložení. Obe mierky sú nezávislé.
+web_enabled: Povoliť webové ovládanie v LAN
+web_host: Adresa na počúvanie
+web_port: Port TCP
+web_token: Prístupový token
+show_token: Zobraziť token
+save: Uložiť
+cancel: Zrušiť
+settings_saved: Nastavenia uložené a použité.
+settings_error: Nastavenia nemožno uložiť
+scan_warnings: Upozornenia pri prehľadávaní
+browse_title: Vyberte knihu alebo album
+open_entry: Otvoriť
+all_entries: Všetky položky
+remote_status: 'Webové ovládanie: {host}:{port}'
+remote_disabled: Webové ovládanie vypnuté
+exit_fullscreen: Stlačte F11 alebo Escape na ukončenie režimu celej obrazovky
+system_error: Vypnutie sa nepodarilo
+shutdown_failed: 'Zariadenie nemožno vypnúť: {error}'
+minutes: min
+
+# Knižnica, vyhľadávanie a prehrávanie
+category_folders: Ďalšie priečinky kategórií (možno zadať viac ciest pre rovnakú kategóriu)
+categoryless: Režim bez kategórií – prehľadávať všetky položky
+scan_on_startup: Pri spustení obnoviť knižnicu
+browse_text_scale: Veľkosť textu v zozname priečinkov a kategórií (%)
+metadata_tab: Metadáta
+metadata_folder_name: Zobrazovať názov priečinka pod obalom
+metadata_folder_album: Zobrazovať názov albumu pod obalom
+metadata_folder_artist: Zobrazovať autora / interpreta pod obalom
+metadata_file_name: Zobrazovať názov súboru v zozname stôp
+metadata_file_title: Zobrazovať názov stopy v zozname
+metadata_file_artist: Zobrazovať autora / interpreta v zozname stôp
+search: Hľadať
+search_all: Všetky albumy
+search_category: Aktuálna kategória
+search_files: Iba súbory
+repeat_file: Opakovať aktuálny súbor
+repeat_album: Opakovať album / knihu
+scan_skipped: Úvodné prehľadávanie preskočené; zobrazený posledný index. Stlačte Obnoviť.
+discovering: Hľadám zvukové priečinky…
+scan_progress: 'Prehľadávam {done}/{total}: {folder}'
+working: Načítavam zoznam…
+
+# Displej, systém a napájanie
+system_controls: Ovládanie systému
+close_app: Ukončiť aplikáciu
+shutdown_pc: Vypnúť počítač
+shutdown_confirm: Naozaj teraz vypnúť celý počítač? Prehrávanie aj ostatné programy sa ukončia.
+screen_brightness: Jas obrazovky
+brightness_mode: 'Ovládanie jasu: {backend}'
+brightness_hardware: Hardvérové podsvietenie
+brightness_software: Softvérové stlmenie (iba aplikácia)
+brightness_auto: Automatické rozpoznanie
+brightness_backend: Spôsob ovládania jasu
+backlight_device: Zariadenie podsvietenia (voliteľné)
+backlight_device_hint: Automaticky; alebo názov z /sys/class/backlight
+dim_toggle: Stlmiť / obnoviť jas obrazovky
+auto_dim: Automaticky stlmiť obrazovku pri nečinnosti
+auto_dim_delay: Stlmiť po čase nečinnosti
+auto_dim_target: Cieľový jas pri automatickom stlmení
+sleep_active_short: 'Vypnutie o {time}'
+sleep_fading_short: 'Vypnutie o {time} (stlmovanie)'
+increase: Zvýšiť hodnotu
+decrease: Znížiť hodnotu
+repeat_enabled: Zapnuté
+repeat_disabled: Vypnuté
+
+# Kalendár: poradie pondelok až nedeľa, január až december
+weekday_monday: pondelok
+weekday_tuesday: utorok
+weekday_wednesday: streda
+weekday_thursday: štvrtok
+weekday_friday: piatok
+weekday_saturday: sobota
+weekday_sunday: nedeľa
+month_january: január
+month_february: február
+month_march: marec
+month_april: apríl
+month_may: máj
+month_june: jún
+month_july: júl
+month_august: august
+month_september: september
+month_october: október
+month_november: november
+month_december: december

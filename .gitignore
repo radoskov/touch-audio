@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+old_config.yaml
+config.yaml
+
 # C extensions
 *.so
 

@@ -1,0 +1,19 @@
+# Copy this to translations/de.yaml, translations/fr.yaml, etc., then set
+# language: de (or fr) in config.yaml or in the Options dialog.
+# Keys not provided are taken from en.yaml.
+app_title: Example Audio Player
+categories: Categories
+browse: Browse all
+play_pause: Play / pause
+options: Options
+refresh: Refresh
+
+# v1.3 sample translation keys
+system_controls: System controls
+dim_toggle: Dim / restore display
+shutdown_pc: Shut down computer
+auto_dim: Automatically dim after inactivity
+
+# v1.4 touchscreen steppers
+increase: Increase value
+decrease: Decrease value
